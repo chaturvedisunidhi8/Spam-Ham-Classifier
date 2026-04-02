@@ -1,6 +1,6 @@
 import tensorflow as tf
 import tensorflow_hub as hub  
-import tensorflow_text as text
+import tensorflow_text as text 
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics.pairwise import cosine_similarity
