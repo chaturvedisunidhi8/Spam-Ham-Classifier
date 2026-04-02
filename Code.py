@@ -4,7 +4,7 @@
 
 import gensim
 from gensim.models import Word2Vec, KeyedVectors
-from gensim.downloader import load as api  
+from gensim.downloader import load as api   
 
 import pandas as pd
 import numpy as np
