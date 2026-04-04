@@ -1,6 +1,6 @@
 #  Install and import libraries
 !pip install gensim    
-!pip install tqdm   
+!pip install tqdm    
     
 import gensim  
 from gensim.models import Word2Vec, KeyedVectors
