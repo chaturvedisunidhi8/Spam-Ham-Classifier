@@ -74,7 +74,7 @@ df = pd.DataFrame()
 for i in range(0, len(X)):
     df = df.append(pd.DataFrame(X[i].reshape(1, -1)), ignore_index=True)
 
-print(df.shape)
+print(df.shape) 
 
 #  Train-Test Split
 X_train, X_test, y_train, y_test = train_test_split(df, y, test_size=0.2, random_state=0)
