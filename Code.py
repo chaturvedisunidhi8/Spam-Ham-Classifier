@@ -9,7 +9,7 @@ from gensim.downloader import load as api
 import pandas as pd
 import numpy as np
 import re
-import nltk
+import nltk 
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import sent_tokenize
 
