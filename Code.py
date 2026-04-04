@@ -25,7 +25,7 @@ wv = api('word2vec-google-news-300')  # Pretrained Google model (300 dimensions)
 #  Read the dataset
 message = pd.read_csv('spam.csv')
 
-#  Text preprocessing and lemmatization
+#  Text preprocessing and lemmatization 
 lemmatizer = WordNetLemmatizer()
 corpus = []
 
