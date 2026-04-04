@@ -2,7 +2,7 @@
 !pip install gensim  
 !pip install tqdm   
    
-import gensim 
+import gensim  
 from gensim.models import Word2Vec, KeyedVectors
 from gensim.downloader import load as api      
 
